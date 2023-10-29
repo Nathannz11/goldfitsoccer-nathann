@@ -1,0 +1,49 @@
+.logo-form { 
+    width: 35%;
+    margin-bottom: 3%;
+}
+
+#dados-pessoais-box {
+    width: 65vw;
+}
+
+.dados-pessoais-form {
+    width: 100%;
+}
+
+.form-item-dados-pessoais {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.dados-pessoais-fields {
+    padding: 1% 0%; 
+}
+
+.text-field-dados-pessoais {
+    width: 90%;
+}
+
+.form-text-item-dados-pessoais {
+    width: 100%;
+    display: flex;
+    margin: 2% 0%;
+}
+
+.dados-pessoais-item {
+    width: 50%;
+}
+
+.text-field-dados-pessoais {
+    width: 90%;
+}
+
+#idade-form-subtitle {
+    width: 60vw;
+}
+
+.single-text-field {
+    margin-top: 0% 0%;
+    width: 60%;
+}

@@ -1,0 +1,17 @@
+.home-container{
+    width: 100%;
+}
+
+.right-container{
+    width: 420px;
+    height: 620px;
+    padding-top: 10px;
+    border: 1px solid #5B656F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+.options-container{
+    text-align: center;
+}

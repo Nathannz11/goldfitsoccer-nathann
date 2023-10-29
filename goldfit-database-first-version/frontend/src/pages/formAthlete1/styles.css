@@ -1,0 +1,43 @@
+.straight-form-info-pais {
+    display: flex;
+    padding: 5% 0%;
+    justify-content: space-around;
+}
+
+#box-info-pais { 
+    width: 65vw;
+}
+
+.form-info-pais {
+    padding: 3% 5% 0% 5%;
+}
+
+.info-pais-fields {
+    display: flex;
+}
+
+.suporte-familiar-questions {
+    padding: 0% 10%;
+}
+
+.field-title-socioeconomico {
+    word-break: normal !important;
+    margin-bottom: 5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    color: #313B44;
+}
+
+.text-field-socioeconomico {
+    width: 50%;
+    align-self: center;
+}

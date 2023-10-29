@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Share+Tech&display=swap');
+
+.btn-compnent {
+    border: none;
+    background-color: #489152;
+    min-width: 150px;
+    width: fit-content;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 1% 5%;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap; 
+    
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    
+    transition: all 0.3s ease;
+}
+
+.btn-compnent .entrar {
+    font-weight: bold;
+    font-style: normal; 
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-compnent:hover{
+    background-color: #0E592C;
+}
+
+
+
+@media (max-width:424px){
+    .btn{
+        width: 100%;
+    }
+}
+

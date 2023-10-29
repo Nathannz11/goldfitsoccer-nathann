@@ -1,0 +1,80 @@
+#vantagens {
+    font-family: 'Open Sans';
+    height: 100%;
+    color: #313B44;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vantagens-text-content {
+    width: 80vw;
+}
+
+.vantagens-text-content h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #CCA765;
+}
+
+.vantagens-text-content h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 41px;
+    margin: 1% 0%;
+}
+
+.vantagens-card-container {
+    padding: 3% 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.vantagens-card {
+    width: 18%;
+    padding: 1%;
+    text-align: center;
+    border: 1px solid #313B44;
+    border-radius: 5px;
+    margin: 0% 2%;
+}
+.vantagens-card img {
+    height: 20vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+.vantagens-card p {
+    margin-top: 10%;
+    font-size: 18px;
+}
+
+#second-vantagens-text-content {
+    margin: 3% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figma-link{
+    color: #313B44;
+}
+
+
+@media (max-width:960px) {
+    .vantagens-card-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .vantagens-card{
+        width: 100%;
+    }
+}

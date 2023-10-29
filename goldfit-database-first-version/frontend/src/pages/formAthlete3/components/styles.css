@@ -1,0 +1,17 @@
+.questionaire-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 2%;
+}
+
+.form-subtitle-component {
+    margin: 2% 0%;
+    width: 60%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #313B44;
+}

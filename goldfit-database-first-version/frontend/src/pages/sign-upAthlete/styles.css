@@ -1,0 +1,88 @@
+/*SIGN-UP STYLES */
+.sign-up-atlhete-container{
+    height: 100vh;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container-sign-up-atlhete {
+    width: 60%;
+    padding-top: 5%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    align-items: center;
+}
+
+.img-logo-sign-up-athlete {
+    width: 40%;
+}
+
+.text-field-athlete {
+    width: 100%;
+    text-align: center;
+}
+
+#form-control{
+    width: 100%;
+}
+
+.input-section-signupathlete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100%;
+    margin: 2% 0%;
+    
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.athlete-form-input {
+    padding: 1%;
+    width: 50%;
+}
+
+
+
+#botao-cancelar-cadastro-atleta {
+    background-color: white;
+    color: #489152;
+}
+
+
+
+
+@media (max-width: 542px){
+    .input-section-signupathlete{
+        flex-direction: column;
+    }
+    .athlete-form-input {
+        width: 100%;
+    }
+
+}
+
+

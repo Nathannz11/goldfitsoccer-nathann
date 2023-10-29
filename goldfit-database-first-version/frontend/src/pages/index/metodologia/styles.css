@@ -1,0 +1,65 @@
+.metodologia {
+    height: 100%;
+    font-family: 'Open Sans';
+    color: #313B44;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+
+.metodologia h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #CCA765;
+}
+
+.metodologia h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 41px;
+    margin: 1% 0%;
+}
+
+.metodologia h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    text-align: center;
+    margin: 3% 0%;
+}
+
+.metodologia p {
+    width: 75%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    margin: 2%;
+    font-family: 'Open Sans';
+    color: #313B44;
+}
+
+#manual-atleta-title {
+    margin-top: 8%;
+    margin-bottom: 0%;
+}
+
+
+@media (max-width:960px) {
+    .metodologia{
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

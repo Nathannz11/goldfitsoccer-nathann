@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Share+Tech&display=swap');
+
+.btn-cancel-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 40px;
+    width: 20em;
+    background-color: white;
+    border: 1px solid #489152;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 1%;
+    text-align: center;
+    color: #489152;
+    height: 5vh;
+    min-width: 150px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-cancel-component:hover {
+    background-color: #489152;
+    color: white;
+}

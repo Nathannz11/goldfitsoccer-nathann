@@ -1,0 +1,42 @@
+.card-container{
+    width: 180px;
+    border: 1px solid #5B656F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-athlete {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.card-athlete-id{
+    color: #313B44;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-athlete-image{   
+    margin: 16px;
+    border-radius: 3%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.card-athlete-name{
+    color: #313B44;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-athlete-date, .card-athlete-positon, .card-athlete-club{
+    color: #313B44;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+/* LOGIN-CREDENTIALS STYLES */
+.flex-box-container {
+
+    height: 100vh;
+    display: flex;
+}
+
+.container-login-credentials{
+    width: 50%;
+    margin: auto;
+
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.img-logo-login-credentials{
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+.form{
+    margin-top: 30px;
+    padding: 5%;
+}
+
+.login-form-input {
+    margin-bottom: 10%;
+}
+
+.input-password{
+    margin-bottom: 20px
+}
+
+.forgot-password{
+    margin-top: 60px;
+}
+
+.login-recover{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.login-recover a{
+    text-decoration: underline;
+}
+
+@media (max-width:627px){
+    .container-login-credentials{
+        width: 80%;
+    }
+}

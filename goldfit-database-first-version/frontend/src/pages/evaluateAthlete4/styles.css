@@ -1,0 +1,154 @@
+#container-aspectos-intangiveis {
+    padding: 5% 3% 2% 3%;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    margin-top: -3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.internal-box {
+    width: 105%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    margin-top: -2%;
+    /* background-color: blue; */
+}
+
+.form-sub-subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+
+    color: #313B44;
+}
+
+.buttons-container {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cancel-buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+    margin-top: -2%;
+}
+
+#create-new-athlete-4 {
+    margin-bottom: 5%;
+}
+/* EVALUATE 4 STYLES 
+.box{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+.container-box{
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    width: 95%;
+}
+
+.container-box .container-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 4%;
+}
+
+.container-box .container-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-box .container-left .options{
+    margin-left: 3%;
+}
+
+.container-box .container-right .options{
+    margin-left: 3%;
+}
+.ha{
+    paddng-bottom: 2%;
+}
+
+@media screen and (max-width:768px){
+    .box{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .container-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-box .container-left{
+        width: 100%;
+        padding-left: 0%; 
+        align-items: center;
+    }
+
+    .container-box .container-left .options{
+        margin-left: 0%;
+    }
+    
+    .container-box .container-right{
+        width: 100%;
+        padding-left: 2%; 
+        align-items: center;
+    }
+
+    .container-box .container-right .options{
+        margin-left: 0%;
+    }
+    
+    .internal{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:425px){
+    .internal .options{
+        display: grid;
+        grid-auto-flow: column;
+        font-size: 10px;
+    }
+   
+}
+
+@media screen and (max-width:375px){
+    .box{
+        font-size: 14px;
+    }
+    b{
+        font-size: 13px;
+    }
+}*/

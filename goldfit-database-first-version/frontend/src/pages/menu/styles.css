@@ -1,0 +1,131 @@
+/* GLOBAL STYLES */
+
+.login-as-section {
+    height: 100vh;
+    align-items: center;
+}
+
+.grid-icons-menu, figure {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+figure {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+.link-login-as {
+    text-decoration: none;
+    color: #313B44;
+
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    margin-top: 5%;
+    color: #313B44;
+}
+
+.img-login-as {
+    height: 10vh;
+}
+
+.link-login-as:hover {
+    text-decoration: underline;
+}
+
+.img-login-as {
+    width: 45%;
+}
+
+
+h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #313B44;
+    margin-bottom: 5%;
+}
+
+/* LOGIN STYLES */
+.login-as-container{
+    width: 45%;
+    margin: auto;
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.img-logo{
+    height: 80%;
+    width: 80%;
+    margin: 5px;
+}
+
+
+.grid-register{
+    margin-top: 5%;
+    background-color: #CA973C;
+    width: 100%;
+    align-items: center;
+}
+
+.grid-register .coachInvited, .coach, .athlete{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (min-width: 1000px) {
+    .container{
+        width: 500px;
+        margin-top: 15vh;
+    }
+
+    .img-logo{
+        height: 45%;
+        width: 45%;
+        margin: 30px 0px 70px 0px;
+    }
+    
+
+    .grid-register{
+        padding: 50px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .grid-register .coachInvited, .coach, .athlete{
+        margin: 2px;
+    }
+
+    .grid-register a{
+        color: white;
+        font-weight: bold;
+    }
+}
+@media (max-width: 763px){
+    .grid-icons-menu, figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,72 @@
+footer {
+    background-color: #CA973C;
+    position: relative;
+    bottom: 0px;
+    height: 31vh;
+    padding: 2% 3%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h5 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: #313B44;
+}
+
+footer p {
+    margin-left: 5%;
+    text-align: left;
+
+}
+
+.logo-container {
+    width: 15%;
+    margin-right: 3%;
+}
+
+#footer-logo {
+    width: 100%;
+}
+
+.contato-details {
+    padding: 2% 0%;
+}
+
+.contato-details a {
+    font-size: 16px;
+    margin-left: 5%;
+    color: #313B44;
+    transition: all 0.3s ease;
+}
+
+.contato-details a:hover {
+    color: #E5E5E5;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+
+.contato-item {
+    margin: 7% 0%;
+    display: flex;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+}
+
+.location-details {
+    font-size: 16px;
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.logos-footer {
+    width: 25%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+

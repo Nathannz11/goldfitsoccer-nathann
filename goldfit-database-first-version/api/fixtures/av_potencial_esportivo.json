@@ -1,0 +1,643 @@
+[
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 2,
+      "fields": {
+      "atleta": ["Arthur Rocha Coimbra"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 3,
+      "fields": {
+      "atleta": ["Caio Mendes Leal"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 4,
+      "fields": {
+      "atleta": ["Danilo Sobreira de Paula"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 5,
+      "fields": {
+      "atleta": ["Davi Robert Pereira Tobias"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 6,
+      "fields": {
+      "atleta": ["David Vitor Lima Ferreira"],
+      "potencial_futuro": 5,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 7,
+      "fields": {
+      "atleta": ["Diego Emanuel Lopes"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 8,
+      "fields": {
+      "atleta": ["Douglas Moreira Virgílio"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 9,
+      "fields": {
+      "atleta": ["Eggon Gabriel"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 10,
+      "fields": {
+      "atleta": ["Eick Campos Erossi Caetano"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 11,
+      "fields": {
+      "atleta": ["Enrico DE Castro Geara"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 12,
+      "fields": {
+      "atleta": ["Enzo de Lima Moraes"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 13,
+      "fields": {
+      "atleta": ["Enzo Telles Pires Amaral"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 14,
+      "fields": {
+      "atleta": ["Filipe José Laguardia Vieira"],
+      "potencial_futuro": 5,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 15,
+      "fields": {
+      "atleta": ["Gabriel Aparecido de Paula Silva"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 16,
+      "fields": {
+      "atleta": ["Gabriel de Almeida"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 17,
+      "fields": {
+      "atleta": ["Gabriel Gonçalves Lauriano"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 18,
+      "fields": {
+      "atleta": ["Gabriel Nacarete Machado"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 19,
+      "fields": {
+      "atleta": ["Gabriel Oliveira Martins"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 20,
+      "fields": {
+      "atleta": ["Gean Paulo Rocha Coealho"],
+      "potencial_futuro": 5,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 21,
+      "fields": {
+      "atleta": ["Guilherme Henrique Bibiano Honório"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 22,
+      "fields": {
+      "atleta": ["Gustavo Henrique Gomes M costa"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 23,
+      "fields": {
+      "atleta": ["Gustavo Lins Simoes"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 24,
+      "fields": {
+      "atleta": ["Gustavo Oliveira de Souza"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 25,
+      "fields": {
+      "atleta": ["Gustavo Pinheiro Vicente"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 26,
+      "fields": {
+      "atleta": ["Gustavo Sartori Miranda"],
+      "potencial_futuro": 5,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 27,
+      "fields": {
+      "atleta": ["Higor Dias Azarias"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 28,
+      "fields": {
+      "atleta": ["Icaro Fernando V. Sad"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 29,
+      "fields": {
+      "atleta": ["Igor Cesario Siqueira"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 30,
+      "fields": {
+      "atleta": ["Igor Luís dos Santos Tomás"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 31,
+      "fields": {
+      "atleta": ["Jhonatan Oliveira Martins"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 32,
+      "fields": {
+      "atleta": ["João Márcio de Lima e Silva"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 33,
+      "fields": {
+      "atleta": ["João Marcos Moura de Oliveira"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 34,
+      "fields": {
+      "atleta": ["João Pedro Dias"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 35,
+      "fields": {
+      "atleta": ["João Victor Oliveira de Sá"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 36,
+      "fields": {
+      "atleta": ["João Victor Picorelli Lavro"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 37,
+      "fields": {
+      "atleta": ["João Vitor Ribeiro Lopes"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Goleiro"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 38,
+      "fields": {
+      "atleta": ["Jonathan Lacerda Botti"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Meio Campo"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 39,
+      "fields": {
+      "atleta": ["Joner Leonardo da Costa Souza"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Atacante "
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 40,
+      "fields": {
+      "atleta": ["Kauã Cassimiro"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Lateral Esquerdo"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 41,
+      "fields": {
+      "atleta": ["Kayky dos Santos Alves"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Atacante "
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 42,
+      "fields": {
+      "atleta": ["Leonardo Gonçalves Pereira"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Meio Campo"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 43,
+      "fields": {
+      "atleta": ["Leonardo Gustavo Oliveira Dimentino"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Zagueiro "
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 44,
+      "fields": {
+      "atleta": ["Lucas Borges de Freitas"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Meio Campo"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 45,
+      "fields": {
+      "atleta": ["Lucas de Souza cezar"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Atacante "
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 46,
+      "fields": {
+      "atleta": ["Lucas Lopes de Souza"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Meio Campo"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 74,
+      "fields": {
+      "atleta": ["Lucas Moreira Abreu"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "meio Campo"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 47,
+      "fields": {
+      "atleta": ["Luiz Antônio S. Ferreira"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Lateral Esquerdo"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 48,
+      "fields": {
+      "atleta": ["Luiz Felipe de Melo"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Zagueiro "
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 49,
+      "fields": {
+      "atleta": ["Luiz Gustavo Messias de Oliveira"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Goleiro"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 50,
+      "fields": {
+      "atleta": ["Marcio da Silveira Júnior"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Atacante "
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 51,
+      "fields": {
+      "atleta": ["Mateus Monteiro Alves"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Atacante "
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 75,
+      "fields": {
+      "atleta": ["Matheus Layer Dias De Oliveira"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Zagueiro "
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 52,
+      "fields": {
+      "atleta": ["Matheus Luiz Santos Abreu"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Lateral"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 53,
+      "fields": {
+      "atleta": ["Matheus Marques Lima da Silva"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Meio Campo"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 54,
+      "fields": {
+      "atleta": ["Matheus Milione Eutierrez"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Centro-avante"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 55,
+      "fields": {
+      "atleta": ["Matheus Sanhudo de Paula"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "lateral"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 56,
+      "fields": {
+      "atleta": ["Matheus Virginio Rodrigues de Andrade"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "zagueiro"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 57,
+      "fields": {
+      "atleta": ["Natã Ribeiro"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "atacante"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 58,
+      "fields": {
+      "atleta": ["Otávio Augusto Ferreira de Assis"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "Meia"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 59,
+      "fields": {
+      "atleta": ["Pedro Araújo Coutinho"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "lateral"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 60,
+      "fields": {
+      "atleta": ["Pedro Augusto de Rezende Teixeira"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "lateral"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 61,
+      "fields": {
+      "atleta": ["Pedro Bellini Andrade"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "lateral"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 62,
+      "fields": {
+      "atleta": ["Pedro Braga Viclelo"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "Meia"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 63,
+      "fields": {
+      "atleta": ["Pedro Henrique Andrés Nascimento"],
+      "potencial_futuro": 5,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "Meia"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 64,
+      "fields": {
+      "atleta": ["Pedro Rodrigues Pereira"],
+      "potencial_futuro": 5,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "atacante"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 76,
+      "fields": {
+      "atleta": ["Ricardo Almeida Fernandes"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "goleiro"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 65,
+      "fields": {
+      "atleta": ["Samuel Heitor Tobias"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "futebol",
+      "posicao_futura": "Ponta"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 66,
+      "fields": {
+      "atleta": ["Sanderley W. de Paula Filho"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Zagueiro"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 67,
+      "fields": {
+      "atleta": ["Thiago Alves de Oliveira"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Goleiro"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 68,
+      "fields": {
+      "atleta": ["Thiago Amaro de Oliveira"],
+      "potencial_futuro": 3,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Lateral"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 69,
+      "fields": {
+      "atleta": ["Tiago"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Meia"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 70,
+      "fields": {
+      "atleta": ["Victor Candido Costa Ferreira"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Atacante"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 71,
+      "fields": {
+      "atleta": ["Vinícius Furtado Giron"],
+      "potencial_futuro": 2,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Defensor"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 72,
+      "fields": {
+      "atleta": ["Vitor Valério Dos Santas"],
+      "potencial_futuro": 4,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Meia"
+    }},
+    {
+      "model": "api.AvaliacaoPotencialEsportivo",
+      "pk": 73,
+      "fields": {
+      "atleta": ["Wendel Mateus Maia"],
+      "potencial_futuro": 5,
+      "modalidade_futura": "Futebol",
+      "posicao_futura": "Atacante"
+      }
+    }
+  ]

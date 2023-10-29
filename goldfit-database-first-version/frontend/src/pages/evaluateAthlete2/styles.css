@@ -1,0 +1,230 @@
+.text-field {
+    margin-left: 5px;
+    height: 45px;
+}
+
+#create-new-athlete-1 {
+    margin: 5% 0%;
+}
+
+.straight-form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.table-title {
+    margin-bottom: 20%;
+    font-family: 'Open Sans';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    color: #313B44;
+}
+
+.form-table {
+    width: 100%;
+    padding: 5% 10%;
+    align-items: center;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 2%;
+}
+
+.field-title {
+    word-break: normal !important;
+    margin-bottom: 20%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    color: #313B44;
+}
+
+.flex-form {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 2%;
+}
+
+.cancel-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-part {
+    width: 100%;
+    margin: 5%;
+}
+
+.first-part-content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-novo,
+.btn-filled {
+    border: none;
+    background-color: #489152;
+    min-width: 100px;
+    width: 200px;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+
+    transition: all 0.3s ease;
+}
+
+
+.second-part {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 100%;
+}
+
+.third-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.third-part-section {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.attemps {
+    padding-left: 17%;
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.text-attemps {
+    justify-content: center;
+    padding-left: 19%;
+}
+
+.btn {
+    width: 45%;
+}
+
+.text-field-athlete {
+    width: 100%;
+}
+
+
+
+.btn-cancel {
+    width: 45%;
+}
+
+
+.form-evaluate {
+    margin-top: 80px;
+    margin: 5px;
+    width: 80%;
+}
+
+.save-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn-cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3%;
+}
+
+
+.helper-text {
+    padding: 3% 0%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+    color: #313B44;
+}
+
+@media (max-width: 691px) {
+    .first-part-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .input-deficiency {
+        margin-top: 15px;
+    }
+}
+
+
+@media (max-width:529px) {
+    .first-part {
+        flex-direction: column-reverse;
+    }
+
+    .input-section-athelete1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .athlete-form-input {
+        margin-bottom: 5px;
+    }
+
+    .form-evaluate-athlete1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .save-button {
+        margin-top: 15px;
+    }
+
+    .input-deficiency {
+        margin-left: 15px;
+    }
+
+
+}
