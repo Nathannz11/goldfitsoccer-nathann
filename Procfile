@@ -1,0 +1,1 @@
+web: gunicorn goldfit_db.wsgi --log-file -
