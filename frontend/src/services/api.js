@@ -8,6 +8,8 @@ import axios from "axios";
  * TODO: analisar a possibilidade de utilizar um Context de atletas entre outros para utilizar nas páginas
  * dessa forma reduzir código repetido e chamas desnecessárias à API
 */
+axios.defaults.xsrfCookieName = 'csrftoken'
+axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 
 const api = axios.create ({
     baseURL: "http://localhost:8000"
