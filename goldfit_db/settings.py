@@ -197,7 +197,7 @@ django_heroku.settings(locals())
 
 # import the necessary libraries for deployment purposes:
 import django_heroku
-import dotenv
+#import dotenv
 import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
