@@ -213,13 +213,9 @@ import os
 ON_HEROKU = os.environ.get('ON_HEROKU')
 
 # configure the DATABASES setting
-DATABASES = {}
 if ON_HEROKU:
     DATABASE_URL = 'postgresql://<postgresql>'
-else:
-    DATABASE_URL = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
 
-DATABASES = {'default': dj_database_url.config(default=DATABASE_URL)}
 '''
 MIDDLEWARE = [
   'django.middleware.security.SecurityMiddleware',
