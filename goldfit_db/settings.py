@@ -129,6 +129,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'goldfit_db.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:3000/',
+    'https://goldfitsoccer-front-test-f791e216d7db.herokuapp.com/'
+]
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
