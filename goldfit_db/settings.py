@@ -214,7 +214,7 @@ ON_HEROKU = os.environ.get('ON_HEROKU')
 
 # configure the DATABASES setting
 if ON_HEROKU:
-    DATABASE_URL = 'postgresql://<postgresql>'
+    DATABASE_URL = os.environ.get('POSTGRESURL')
 
 '''
 MIDDLEWARE = [
