@@ -35,7 +35,7 @@ ALLOWED_HOSTS = [
 
 DEFAULT_REQUEST_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',,
-  'referer': 'https://goldfitsoccer-test-02f0da80e648.herokuapp.com/',
+  'referer': 'https://goldfitsoccer-test-02f0da80e648.herokuapp.com/'
 }
 
 # Application definition
