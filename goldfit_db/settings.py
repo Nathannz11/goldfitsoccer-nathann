@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-y!+d_&zqxymwsb^0lp^wh^2li!fc%it$y5ls))4bcxzw&o5hh-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['goldfitsoccer-test.herokuapp.com']
 
 
 # Application definition
