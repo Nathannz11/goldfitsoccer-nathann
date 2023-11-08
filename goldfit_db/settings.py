@@ -28,8 +28,15 @@ SECRET_KEY = 'django-insecure-y!+d_&zqxymwsb^0lp^wh^2li!fc%it$y5ls))4bcxzw&o5hh-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['goldfitsoccer-test.herokuapp.com']
+ALLOWED_HOSTS = [
+    'goldfitsoccer-test.herokuapp.com',
+    'goldfitsoccer-front-test.herokuapp.com'
+]
 
+DEFAULT_REQUEST_HEADERS = {
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',,
+  'referer': 'https://goldfitsoccer-test-02f0da80e648.herokuapp.com/',
+}
 
 # Application definition
 
@@ -101,12 +108,14 @@ SIMPLE_JWT = {
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    "corsheaders.middleware.CorsMiddleware",
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'django.middleware.gzip.GZipMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.http.ConditionalGetMiddleware',
 ]
 
 ROOT_URLCONF = 'goldfit_db.urls'
