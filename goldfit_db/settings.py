@@ -142,6 +142,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'goldfit_db.wsgi.application'
 
+CSRF_COOKIE_DOMAIN = [
+    'http://localhost:3000/',
+    'https://goldfitsoccer-front-test-f791e216d7db.herokuapp.com/',
+    'https://goldfitsoccer-front-test-f791e216d7db.herokuapp.com/cadastro-atleta',
+    'https://goldfitsoccer-test-02f0da80e648.herokuapp.com/admin',
+    'https://goldfitsoccer-test-02f0da80e648.herokuapp.com/admin/api/atleta'
+]
+
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000/',
     'https://goldfitsoccer-front-test-f791e216d7db.herokuapp.com/',
