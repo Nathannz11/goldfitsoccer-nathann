@@ -35,10 +35,14 @@ ALLOWED_HOSTS = [
 
 DEFAULT_REQUEST_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'referer': 'https://goldfitsoccer-test-02f0da80e648.herokuapp.com/'
+  'referer': 'https://goldfitsoccer-front-test-f791e216d7db.herokuapp.com/cadastro-atleta'
 }
 
 # Application definition
+
+CSRF_COOKIE_SECURE = True
+
+CSRF_COOKIE_HTTPONLY = True
 
 INSTALLED_APPS = [
     'django.contrib.admin',
