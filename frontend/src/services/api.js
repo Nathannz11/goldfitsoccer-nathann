@@ -12,7 +12,7 @@ axios.defaults.xsrfCookieName = 'csrftoken'
 axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 
 const api = axios.create ({
-    baseURL: "http://localhost:8000"
+    baseURL: "https://goldfitsoccer-test-02f0da80e648.herokuapp.com/admin"
 });
 
 
