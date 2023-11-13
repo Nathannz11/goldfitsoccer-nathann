@@ -40,9 +40,11 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Application definition
 
-CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = False
 
-CSRF_COOKIE_HTTPONLY = True
+CSRF_COOKIE_HTTPONLY = False
+
+CSRF_USE_SESSIONS = False
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -151,8 +153,8 @@ CSRF_COOKIE_DOMAIN = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:3000/',
-    'https://goldfitsoccer-front-test-f791e216d7db.herokuapp.com/',
+    'http://localhost:3000',
+    'https://goldfitsoccer-front-test-f791e216d7db.herokuapp.com',
     'https://goldfitsoccer-front-test-f791e216d7db.herokuapp.com/cadastro-atleta',
     'https://goldfitsoccer-test-02f0da80e648.herokuapp.com/admin',
     'https://goldfitsoccer-test-02f0da80e648.herokuapp.com/admin/api/atleta'

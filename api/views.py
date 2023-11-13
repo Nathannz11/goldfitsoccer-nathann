@@ -3,6 +3,7 @@ from api.models import *
 from api.serializers import *
 from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
+from django.views.decorators.csrf import ensure_csrf_cookie
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework_simplejwt.views import TokenObtainPairView
@@ -80,6 +81,7 @@ class AvaliacaoAspectosIntangiveisView(generics.CreateAPIView):
 
 
 # ------------------------- Views do Atleta ------------------------------------
+@ensure_csrf_cookie
 @api_view(['GET', 'POST'])
 @permission_classes([IsAuthenticated])
 def get_post_atleta(request, format=None):

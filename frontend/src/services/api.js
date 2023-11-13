@@ -9,8 +9,7 @@ import axios from "axios";
  * dessa forma reduzir código repetido e chamas desnecessárias à API
 */
 axios.defaults.xsrfCookieName = 'csrftoken'
-axios.defaults.xsrfHeaderName = 'X-CSRFTOKEN'
-
+axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 
 const api = axios.create ({
     baseURL: "http://localhost:8000"
