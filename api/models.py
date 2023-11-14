@@ -228,7 +228,7 @@ class QuestionarioACSI(models.Model):
     questao25 = models.IntegerField(default=None, null=True, blank=True,)
     questao26 = models.IntegerField(default=None, null=True, blank=True,)
     questao27 = models.IntegerField(default=None, null=True, blank=True,)
-    # questao28 = models.IntegerField(default=None, null=True, blank=True,)
+    questao28 = models.IntegerField(default=None, null=True, blank=True,)
 
     class Meta:
         db_table = 'questionario_acsi'
