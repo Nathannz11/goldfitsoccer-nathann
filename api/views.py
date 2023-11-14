@@ -81,7 +81,6 @@ class AvaliacaoAspectosIntangiveisView(generics.CreateAPIView):
 
 
 # ------------------------- Views do Atleta ------------------------------------
-@csrf_protect
 @api_view(['GET', 'POST'])
 #@permission_classes([IsAuthenticated])
 def get_post_atleta(request, format=None):
@@ -98,7 +97,6 @@ def get_post_atleta(request, format=None):
 
         return Response(status=status.HTTP_400_BAD_REQUEST)
 
-@csrf_protect
 @api_view(['GET', 'PUT', 'DELETE'])
 #@permission_classes([IsAuthenticated])
 def get_put_delete_atleta(request, id, format=None):
