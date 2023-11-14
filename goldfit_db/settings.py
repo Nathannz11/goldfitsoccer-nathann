@@ -40,11 +40,7 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Application definition
 
-CSRF_COOKIE_SECURE = True
-
-SESSION_COOKIE_SECURE = True
-
-CSRF_USE_SESSIONS = True
+ 
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -114,10 +110,10 @@ SIMPLE_JWT = {
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.gzip.GZipMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -125,6 +121,15 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'goldfit_db.urls'
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
+
+CSRF_COOKIE_SECURE = True
+
+SESSION_COOKIE_SECURE = True
+
+CSRF_USE_SESSIONS = True
+
 
 TEMPLATES = [
     {
@@ -247,8 +252,8 @@ if ON_HEROKU:
     DATABASE_URL = os.environ.get('DATABASE_URL')
 
 
-'''
+
 
 # Add these at the very last line of settings.py
 options = DATABASES['default'].get('OPTIONS', {})
-options.pop('sslmode', None)'''
+options.pop('sslmode', None)
