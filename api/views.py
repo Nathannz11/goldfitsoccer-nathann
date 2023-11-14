@@ -83,7 +83,7 @@ class AvaliacaoAspectosIntangiveisView(generics.CreateAPIView):
 # ------------------------- Views do Atleta ------------------------------------
 @csrf_protect
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_atleta(request, format=None):
     if request.method == 'GET':
         lista_atletas = Atleta.objects.all()
@@ -100,7 +100,7 @@ def get_post_atleta(request, format=None):
 
 @csrf_protect
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_atleta(request, id, format=None):
     try:
         atleta = Atleta.objects.get(pk=id)
@@ -125,7 +125,7 @@ def get_put_delete_atleta(request, id, format=None):
 
 
 @api_view(['GET'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_av_antropometrica_fisicomotora_atleta(request, id, format=None):
     try:
         if request.method == 'GET':
@@ -139,7 +139,7 @@ def get_av_antropometrica_fisicomotora_atleta(request, id, format=None):
 
 # TODO: adicionar método para pegar a avaliação mais recente de determinado atleta
 @api_view(['GET'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_gold_score(request, id, format=None):
     try:
         if request.method == 'GET':
@@ -189,7 +189,7 @@ def get_gold_score(request, id, format=None):
 
 
 @api_view(['GET'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_potencial_esportivo(request, id, format=None):
     try:
         if request.method == 'GET':
@@ -208,7 +208,7 @@ def get_potencial_esportivo(request, id, format=None):
 
 # ------------------------- Views do Treinador ------------------------------------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_treinador(request, format=None):
     if request.method == 'GET':
         lista_treinadores = Treinador.objects.all()
@@ -225,7 +225,7 @@ def get_post_treinador(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_treinador(request, id, format=None):
     try:
         treinador = Treinador.objects.get(pk=id)
@@ -251,7 +251,7 @@ def get_put_delete_treinador(request, id, format=None):
 
 # --------------- Views do Questionario de Dados Pessoais --------------------------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_qdados_pessoais(request, format=None):
     if request.method == 'GET':
         lista_qdados_pessoais = QuestionarioDadosPessoais.objects.all()
@@ -268,7 +268,7 @@ def get_post_qdados_pessoais(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_qdados_pessoais(request, id, format=None):
     try:
         qdados_pessoais = QuestionarioDadosPessoais.objects.get(pk=id)
@@ -294,7 +294,7 @@ def get_put_delete_qdados_pessoais(request, id, format=None):
 
 # --------- Views do Questionário Socioeconomico e Informação dos Pais -------------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_qinfo_pais_socioeconomico(request, format=None):
     if request.method == 'GET':
         lista_qinfo_pais_socioeconomico = QuestionarioInfoPaisSocieconomico.objects.all()
@@ -311,7 +311,7 @@ def get_post_qinfo_pais_socioeconomico(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_qinfo_pais_socioeconomico(request, id, format=None):
     try:
         qinfo_pais_socioeconomico = QuestionarioInfoPaisSocieconomico.objects.get(pk=id)
@@ -337,7 +337,7 @@ def get_put_delete_qinfo_pais_socioeconomico(request, id, format=None):
 
 # -------------- Views do Questionário Orientação Motivacional SOQ ----------------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_qsoq(request, format=None):
     if request.method == 'GET':
         lista_qsoq = QuestionarioSOQ.objects.all()
@@ -354,7 +354,7 @@ def get_post_qsoq(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_qsoq(request, id, format=None):
     try:
         qsoq = QuestionarioSOQ.objects.get(pk=id)
@@ -380,7 +380,7 @@ def get_put_delete_qsoq(request, id, format=None):
 
 # ------ Views do Questionário de Competência percebida e Suporte Familiar -----------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_qcompetencia_suporte(request, format=None):
     if request.method == 'GET':
         lista_qcompetencia_suporte = QuestionarioCompPercebidaSuporteFamiliar.objects.all()
@@ -397,7 +397,7 @@ def get_post_qcompetencia_suporte(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_qcompetencia_suporte(request, id, format=None):
     try:
         qcompetencia_suporte = QuestionarioCompPercebidaSuporteFamiliar.objects.get(pk=id)
@@ -423,7 +423,7 @@ def get_put_delete_qcompetencia_suporte(request, id, format=None):
 
 # -------------- Views do Questionário Habilidades de Coping (ACSI) -----------------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_qacsi(request, format=None):
     if request.method == 'GET':
         lista_qacsi = QuestionarioACSI.objects.all()
@@ -440,7 +440,7 @@ def get_post_qacsi(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_qacsi(request, id, format=None):
     try:
         qacsi = QuestionarioACSI.objects.get(pk=id)
@@ -466,7 +466,7 @@ def get_put_delete_qacsi(request, id, format=None):
 
 # -------------- Views do Questionário Habilidades de Táticas (TACSIS) -----------------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_qtacsi(request, format=None):
     if request.method == 'GET':
         lista_qtacsi = QuestionarioTACSI.objects.all()
@@ -483,7 +483,7 @@ def get_post_qtacsi(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_qtacsi(request, id, format=None):
     try:
         qtacsi = QuestionarioTACSI.objects.get(pk=id)
@@ -509,7 +509,7 @@ def get_put_delete_qtacsi(request, id, format=None):
 
 # ------------------ Views da Avaliacao Antropometrica Fisicomotora ---------------------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_av_antropometrica_fisicomotora(request, format=None):
     if request.method == 'GET':
         lista_av_antropometrica_fisicomotora = AvaliacaoAntropometricaFisicomotora.objects.all()
@@ -526,7 +526,7 @@ def get_post_av_antropometrica_fisicomotora(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_av_antropometrica_fisicomotora(request, id, format=None):
     try:
         av_antropometrica_fisicomotora = AvaliacaoAntropometricaFisicomotora.objects.get(pk=id)
@@ -552,7 +552,7 @@ def get_put_delete_av_antropometrica_fisicomotora(request, id, format=None):
 
 # ------------------ Views da Avaliacao Aerobica ---------------------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_av_aerobica(request, format=None):
     if request.method == 'GET':
         lista_av_aerobica = AvaliacaoAerobica.objects.all()
@@ -569,7 +569,7 @@ def get_post_av_aerobica(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_av_aerobica(request, id, format=None):
     try:
         av_aerobica = AvaliacaoAerobica.objects.get(pk=id)
@@ -595,7 +595,7 @@ def get_put_delete_av_aerobica(request, id, format=None):
 
 # ------------------ Views da Avaliacao de Potencial Esportivo ---------------------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_av_potencial_esportivo(request, format=None):
     if request.method == 'GET':
         lista_av_potencial_esportivo = AvaliacaoPotencialEsportivo.objects.all()
@@ -612,7 +612,7 @@ def get_post_av_potencial_esportivo(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_av_potencial_esportivo(request, id, format=None):
     try:
         av_potencial_esportivo = AvaliacaoPotencialEsportivo.objects.get(pk=id)
@@ -638,7 +638,7 @@ def get_put_delete_av_potencial_esportivo(request, id, format=None):
 
 # ------------------ Views da Aspectos Intangiveis ---------------------
 @api_view(['GET', 'POST'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_post_av_asepctos_intangiveis(request, format=None):
     if request.method == 'GET':
         lista_av_asepctos_intangiveis = AvaliacaoAspectosIntangiveis.objects.all()
@@ -655,7 +655,7 @@ def get_post_av_asepctos_intangiveis(request, format=None):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
+#@permission_classes([IsAuthenticated])
 def get_put_delete_av_asepctos_intangiveis(request, id, format=None):
     try:
         av_asepctos_intangiveis = AvaliacaoAspectosIntangiveis.objects.get(pk=id)
