@@ -246,25 +246,9 @@ ON_HEROKU = os.environ.get('ON_HEROKU')
 if ON_HEROKU:
     DATABASE_URL = os.environ.get('DATABASE_URL')
 
+
 '''
-MIDDLEWARE = [
-  'django.middleware.security.SecurityMiddleware',
-  'whitenoise.middleware.WhiteNoiseMiddleware',
-  # ...
-]
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
-STATIC_URL = '/static/'
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'build/static')
-]
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-'''
-
 
 # Add these at the very last line of settings.py
 options = DATABASES['default'].get('OPTIONS', {})
-options.pop('sslmode', None)
+options.pop('sslmode', None)'''
