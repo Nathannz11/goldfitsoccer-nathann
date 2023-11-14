@@ -233,7 +233,6 @@ import django_heroku
 django_heroku.settings(locals())
 
 # import the necessary libraries for deployment purposes:
-import django_heroku
 #import dotenv
 import dj_database_url
 
